@@ -24,7 +24,7 @@ header nav {
 }
 
 .container {
-	width: 80%;
+	width: 90%;
 	margin: 25px auto;
 	background-color: #fff;
 	padding: 10px;
@@ -45,6 +45,14 @@ p.main {
 	color: #000;
 }
 
-.container a:hover{
+.container a:hover {
 	color: #92a8d1;
+}
+
+p.main {
+	margin-bottom: 20px;
+	text-align: left;
+	line-height: 24px;
+	padding: 30px;
+	size: 36px;
 }
