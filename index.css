@@ -1,7 +1,4 @@
-h1 {
-	text-align: center;
-}
-
+h1,
 h2 {
 	text-align: center;
 }
@@ -24,4 +21,30 @@ header nav {
 
 .body p a {
 	color: #000000;
+}
+
+.container {
+	width: 80%;
+	margin: 25px auto;
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 0;
+	border-radius: 10px;
+}
+
+body {
+	background: #edeef0;
+}
+
+p.main {
+	margin: 30px 0;
+}
+
+.container p a {
+	text-decoration: none;
+	color: #000;
+}
+
+.container a:hover{
+	color: #92a8d1;
 }
