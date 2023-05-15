@@ -1,22 +1,27 @@
 h1 {
-	text-align:center;
+	text-align: center;
 }
+
 h2 {
-	text-align:center;
+	text-align: center;
 }
+
 h1 {
 	color: #92a8d1;
 }
+
 p.date {
-	text-align:right;
-}
-p.main {
-	text-align:center;
-}
-header nav{
-	text-align:center;
+	text-align: right;
 }
 
-.h2 p a{
-	color:#000000;
+p.main {
+	text-align: center;
+}
+
+header nav {
+	text-align: center;
+}
+
+.h2 p a {
+	color: #000000;
 }
