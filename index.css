@@ -1,1 +1,18 @@
-
+h1 {
+	text-align:center;
+	}
+h2 {
+	text-align:center;
+	}
+h1 {
+	color: #92a8d1;
+	}
+p.date {
+	text-align:right;
+	}
+p.main {
+	text-align:center;
+	}
+header nav{
+	text-align:center;
+	}
