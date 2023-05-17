@@ -1,58 +1,14 @@
-h1,
-h2 {
-	text-align: center;
-}
 
-h1 {
-	color: #92a8d1;
-}
-
-p.date {
-	text-align: right;
-}
-
-p.main {
-	text-align: center;
-}
-
-header nav {
-	text-align: center;
-}
-
-.body p a {
-	color: #000000;
-}
-
-.container {
-	width: 90%;
-	margin: 25px auto;
-	background-color: #fff;
+.navbar {
+	background-color: #f2f2f2;
 	padding: 10px;
-	margin-top: 0;
-	border-radius: 10px;
 }
 
-body {
-	background: #edeef0;
+.navbar a {
+	margin-right: 10px;
 }
 
-p.main {
-	margin: 30px 0;
-}
-
-.container p a {
-	text-decoration: none;
-	color: #000;
-}
-
-.container a:hover {
-	color: #92a8d1;
-}
-
-p.main {
-	margin-bottom: 20px;
-	text-align: left;
-	line-height: 24px;
-	padding: 30px;
-	size: 36px;
+/* 内容区域样式 */
+.content {
+	padding: 20px;
 }
