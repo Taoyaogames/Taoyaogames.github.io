@@ -6,6 +6,11 @@
 	border-radius: 8px;
 	margin: 10px;
 	margin-bottom: 20px;
+	position: fixed;
+	width: 98%;
+	top: 0;
+	right: 8px;
+	left: 8px;
 }
 
 .navbar ul {
@@ -31,6 +36,7 @@
 	padding: 20px;
 	padding-top: 5px;
 	border-radius: 5px;
+	margin-top: 70px;
 }
 
 .content2 p {
