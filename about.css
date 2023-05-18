@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #A6D1EE;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 10px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.content2 {
+    margin: 10px;
+    background-color: #f0f1f2;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+
+}

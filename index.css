@@ -1,14 +1,43 @@
-
 .navbar {
-	background-color: #f2f2f2;
-	padding: 10px;
+	background-color: #A6D1EE;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+	border-radius: 8px;
+	margin: 10px;
+	margin-bottom: 20px;
 }
 
-.navbar a {
-	margin-right: 10px;
+.navbar ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-/* 内容区域样式 */
-.content {
+.navbar li {
+	margin: 10px;
+}
+
+.navbar li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.content2 {
+	margin: 10px;
+	background-color: #f0f1f2;
 	padding: 20px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+
+.content2 p {
+	font-size: 18px;
+}
+
+.content2 h1 {
+	text-decoration-line: underline;
+
 }
