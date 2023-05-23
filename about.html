@@ -10,33 +10,67 @@
 
 <body>
     <!-- 导航栏 -->
-    <div class="container">
-        <div class="navbar">
-            <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="#">视频</a></li>
-                <li><a href="#">文章</a></li>
-                <li><a href="#">服务</a></li>
-                <li><a href="about.html">关于我们</a></li>
-            </ul>
-        </div>
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="#">TaoyaoStudio</a></div>
+                <ul class="links">
+                    <li><a href="index.html">主页</a></li>
+                    <li><a href="about.html">关于</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">Features</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Features</label>
+                        <ul>
+                            <li><a href="#">Drop Menu 1</a></li>
+                            <li><a href="#">Drop Menu 2</a></li>
+                            <li><a href="#">Drop Menu 3</a></li>
+                            <li><a href="#">Drop Menu 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">Services</a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Services</label>
+                        <ul>
+                            <li><a href="#">Drop Menu 1</a></li>
+                            <li><a href="#">Drop Menu 2</a></li>
+                            <li><a href="#">Drop Menu 3</a></li>
+                            <li>
+                                <a href="#" class="desktop-link">More Items</a>
+                                <input type="checkbox" id="show-items">
+                                <label for="show-items">More Items</label>
+                                <ul>
+                                    <li><a href="#">Sub Menu 1</a></li>
+                                    <li><a href="#">Sub Menu 2</a></li>
+                                    <li><a href="#">Sub Menu 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
     </div>
-
-    <!-- 内容区域 -->
-    <div class="content2">
+    <!-- 下面是页面显示内容 -->
+    <div class="passage">
         <h1>关于我们</h1>
-        <h2>我们是谁</h2>
-        <p>我们是一群致力于将想法变为现实的大学牲。</p>
-        <h2>我们的成员们</h2>
-        <p>你可以在BILIBILI找到我们。 <br>
-            Amei：<a href="https://space.bilibili.com/286246435?spm_id_from=333.1007.0.0" target="_blank">访问 桜流し_です的空间！
-            </a> <br>
-            冰块：<a href="https://space.bilibili.com/59512097/?spm_id_from=333.999.0.0" target="_blank">访问
-                冰块好冷的空间！</a><br>
-            Mini：<a href="https://space.bilibili.com/3493132165450028/?spm_id_from=333.999.0.0" target="_blank">访问
-                MinitoRi的空间！</a><br>
+        <p>
+            以下是测试文本<br>
+            <p>他们俩也有协同一致陪我玩的时候。我喜欢了一阵子画画，我妈给我报了美术班，买了各色材料，我爸一出差，就给我买什么“小画家丛书”，从水粉到油画，一样一样地折腾。虽然我水平有限，但也画了大把的画出来，我们家时不时就举办一次拍卖会，我的各色作品，五毛八毛的，就由我爸、我妈来竞价。他们俩一本正经，一人有一块牌子，我手上拿个锅铲，当作敲“成交”的槌子。五毛起拍的，一般一块钱也就成交了，有时候我爸抬价，故意立刻喊“十块”，我妈还以为这一幅有什么特别，跟“十块零五毛”，我爸立刻说“那我不要了”，我妈有苦说不出，老老实实给钱，然后还得把这些卖过了的画又收回箱子里去。<br>我小时候喜欢演戏，十几岁了还骑着一匹摇摇马，把绿色的被单裹在身上扮关公。天气好的周末，我们一家会到厂子旁边的小桃林去，以水代酒，演一出“桃园三结义”。我爸是大哥刘备，我妈是三弟张飞。我跟我妈说她只用一直说“俺也是”就可以了，但她常给自己加戏，而且说得文不对题。
+            </p>
+            <p>我爸看我做戏袍太麻烦，把家里的绿被套拆下来，当中剪掉一片成了套头长袍，还帮助设计些造型摆拍。我妈虽然心疼她那绸缎被套，也还是支持我的“演艺事业”的。有一次全家一起买了好多珍珠，穿成一条条链，缝在纸壳上，做了一顶皇帝的帽子，真的曾羡煞旁人。后来我更为手巧的外婆又给我做了一顶硬纸壳镶塑料宝珠的金冠，还把她唯一的龙纹红被面送给我做了龙袍。我在他们的创意竞争中赚得盆满钵满。<br>这是我小时候一种很重要的幸福感来源，那时候条件所限，有许多想做的事的确做不到。我曾经很想学钢琴，而我们家并没有这样的条件。我们去北京旅游，特意去了北京电影制片厂旁边正经卖龙袍的店，那时我爸下定决心送我这个礼物，说“一千块咱们也买”。我不相信会有那么贵，结果到了一看，要三万块一套，我一点没觉得我们穷且因此难过，完全只是被这价格惊呆了，觉得是北京“不大正常”。<br>但那些可以做到的，我喜欢过的五花八门又幼稚的东西，我爸、我妈都煞有介事，当作严肃的爱好来支持。但等我热情劲过了，他们也不强求。过一阵子我不画画，改习书法了，我爸每次出差，总要逛逛文具店，只要是没见过的笔，比如那两年觉得很新奇的日本产的那种软笔，他总要买回来给我试试。
+            </p>
         </p>
-
     </div>
 </body>
 
